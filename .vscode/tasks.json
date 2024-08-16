@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build gmail",
+      "type": "shell",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "presentation": {
+        "reveal": "silent",
+        "revealProblems": "onProblem",
+        "close": false
+      },
+      "command": "npx rollup -c",
+      "options": {
+        "cwd": "${workspaceFolder}/gmail"
+      }
+    },
+    {
+      "label": "Build and push gmail",
+      "type": "shell",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "presentation": {
+        "reveal": "silent",
+        "revealProblems": "onProblem",
+        "close": false
+      },
+      "command": "npx rollup -c && clasp push",
+      "options": {
+        "cwd": "${workspaceFolder}/gmail"
+      }
+    }
+  ]
+}

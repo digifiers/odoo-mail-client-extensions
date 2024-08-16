@@ -14,8 +14,8 @@
         "onTriggerFunction": "onGmailMessageOpen"
       }
     ],
-    "primaryColor": "#875A7B",
-    "secondaryColor": "#00A09D",
+    "primaryColor": "#5228C9",
+    "secondaryColor": "#0eb8ad",
     "openLinkUrlPrefixes": [
       "*"
     ]
@@ -52,7 +52,7 @@
     "https://odoo.com/mail_plugin/auth",
     "https://odoo.com/mail_plugin/auth/access_token",
     "https://iap-services.odoo.com/iap/mail_extension/enrich",
-    "https://intoo.dev/web/login",
-    "https://*.intoo.dev/web/login"
+    "https://intoo.dev/",
+    "https://*.intoo.dev/"
   ]
 }
