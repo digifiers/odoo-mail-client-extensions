@@ -7,7 +7,7 @@
   ],
   "gmail": {
     "name": "Odoo",
-    "logoUrl": "https://raw.githubusercontent.com/odoo/mail-client-extensions/master/outlook/assets/odoo.png",
+    "logoUrl": "https://www.digifiers.be/assets/social/favicon-odoo.png",
     "contextualTriggers": [
       {
         "unconditional": {},
